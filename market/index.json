@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Local plugin index",
+    "zh": "本地插件索引"
+  },
+  "description": {
+    "en": "A hand-maintained index of DSH bundles. Copy this file, replace the entries with your own, and host it over HTTPS.",
+    "zh": "一份手工维护的 DSH 插件索引。复制该文件，换成你自己的条目，用 HTTPS 托管即可。"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@local/dsh-reboot-button",
+      "title": {
+        "en": "Restart Button",
+        "zh": "重启按钮"
+      },
+      "description": {
+        "en": "Adds a restart action to the Settings header. The application closes cleanly and starts again by itself.",
+        "zh": "在设置页头部加入重启操作：应用正常关闭，随后自动重新启动。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlJlc3RhcnQiPgogIDxyZWN0IHg9IjIiIHk9IjIiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcng9IjE2IiBmaWxsPSIjNEQ2QkZFIiBmaWxsLW9wYWNpdHk9IjAuMTIiLz4KICA8cGF0aCBkPSJNNTIgMzJhMjAgMjAgMCAxIDEtMjAtMjBjNS42IDAgMTAuOTcgMi4yMyAxNC45NyA2LjFMNTIgMjMuMSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNEQ2QkZFIiBzdHJva2Utd2lkdGg9IjUuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CiAgPHBhdGggZD0iTTUyIDEydjExLjFINDAuOSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNEQ2QkZFIiBzdHJva2Utd2lkdGg9IjUuNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=",
+      "author": "CWB-CHI",
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "restart",
+          "settings",
+          "desktop",
+          "restart button",
+          "重启"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793781502,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/CWB-CHI/dsh-reboot-button.git",
+            "commit": "d06482e05c73cc65d25d204a0ceac50216a31709"
+          }
+        }
+      ],
+      "homepage": "https://github.com/CWB-CHI/dsh-reboot-button",
+      "repository": {
+        "url": "https://github.com/CWB-CHI/dsh-reboot-button"
+      }
+    }
+  ]
+}

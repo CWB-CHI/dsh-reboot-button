@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-reboot-button
+      name: '@local/dsh-reboot-button'
