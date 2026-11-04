@@ -46,11 +46,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1793781502,
+          "publishTimestamp": 1793782436,
           "source": {
             "type": "git",
             "url": "https://github.com/CWB-CHI/dsh-reboot-button.git",
-            "commit": "d06482e05c73cc65d25d204a0ceac50216a31709"
+            "commit": "39ce2f968661bed9b18d9f1ce1e2066ff7393783"
           }
         }
       ],

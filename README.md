@@ -18,7 +18,7 @@
 把下面这个安装源交给插件管理器（`plugin_manager` 的 `install_bundle`），它会被当作 pnpm 安装参数：
 
 ```
-git+https://github.com/CWB-CHI/dsh-reboot-button.git#d06482e05c73cc65d25d204a0ceac50216a31709
+git+https://github.com/CWB-CHI/dsh-reboot-button.git#39ce2f968661bed9b18d9f1ce1e2066ff7393783
 ```
 
 末尾的 40 位 SHA 锁定了版本，可以换成任意已推送的提交；去掉它则跟随 `main` 最新提交。
